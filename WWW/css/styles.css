@@ -1,0 +1,41 @@
+/* CSS Document */
+
+/* FLAG=reset
+----------------------------------------------- */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label,legend, table, caption, tbody, tfoot, thead, tr, th, td{margin: 0px;padding: 0px;border: 0;font-weight: normal;font-style: normal;text-decoration:none; font-size:12pt; outline:none;}
+
+/* FLAG=global
+----------------------------------------------- */
+body{ font-family:Verdana, Geneva, sans-serif;}
+h1,h2{font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif; }
+h3,h4,h5,h6{font-family:Georgia, "Times New Roman", Times, serif;}
+h1{ color:#222; font-size:400%; font-weight:bold; text-transform:uppercase;}
+h2{ color:#333; font-size:280%;font-weight:bold; text-transform:uppercase;}
+h3{ color:#62899F; font-size:230%;}
+h4{ color:#003; font-size:200%;}
+h5{ font-size:140%; padding:15px 0 15px 0; color:#62899F;}
+h6{ font-size:120%;}
+h6 a{font-size:120%;}
+a{color:#eee;}
+a:hover{color:#666;}
+em{color:#fff;}
+label{font-size:90%;}
+label em{color:#C00;font-size:90%; font-weight:bold;}
+li{list-style-type:none;}
+strong{color:#ccc;}
+p{padding:5px;}
+
+/* FLAG=containers
+----------------------------------------------- */
+#main,#header{width:900px; margin:0 auto; background-color:#000; padding:15px;}
+#header{text-align:right; display:none;}
+#mainContent,#subContent,#footer{margin-top:15px;width:880px;}
+#mainContent,#subContent,#footer,#logo{ padding:10px;-moz-border-radius: 5px;-webkit-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px;}
+#logo{padding:15px; display:block; margin:auto; border:1px solid #fff;}
+#mainContent{ text-align:justify;}
+#subContent{ text-align:justify;}
+#footer{ text-align:center;}
+
+#header{color:#ccc;}
+#header a{color:#fff;}
+#header a:hover{color:#666;}

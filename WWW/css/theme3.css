@@ -1,0 +1,207 @@
+
+body {  width:100%;/* Ширина элемента в пикселах */
+    padding: 10px; /* Поля вокруг текста */
+    margin-left: 10px;margin-right: 10px; align-items: center; background-image: url(image/s.jpg) ;width: 100%;
+}
+
+   #navbar ul {
+  display: none;
+  background-color: #20B2AA;
+  position: absolute;
+  top: 100%;
+}
+#navbar li:hover ul { display: block; }
+#navbar, #navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+#navbar {
+  height: 40px;
+  background-color: #20B2AA;
+  padding-left: 25px;
+  min-width: 976px;
+  border: 2px solid grey;
+}
+#navbar li {
+  float: left;
+  position: relative;
+  height: 100%;
+}
+#navbar li a {
+  display: block;
+  padding: 8px;
+  width: 200px;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+}
+#navbar ul li { float: none; }
+#navbar li:hover { background-color:#F08080; }
+#navbar ul li:hover { background-color: ##F08080; }
+
+p { 
+color:#000000
+}
+header{width:100%;
+  background-image:url(image/c0.jpg);
+	height: 150px;  align-items: center;
+
+  }
+
+a { 
+ font-size: 18px;
+font-stretch: 100%;
+ 
+ font-variant: small-caps;
+
+}
+a:link {color:#0000ff}
+a:active {color:#ff0000}
+a:visited {color:#9900cc}
+
+h3 { 
+color:#000000;
+font-variant: small-caps;
+}
+h2 { 
+	 text-align: center;
+   font-variant: small-caps;
+color:#000000
+}
+h1 { 
+   text-align: center;
+color:#000000;
+ font-style: italic;
+font-variant: small-caps;
+}
+
+
+
+table {
+  font-family:  Sans-Serif;
+  font-size: 16px;
+  background: white;
+  max-width: 70%;
+  width: 70%;
+  border-collapse: collapse;
+  text-align: left;
+}
+th {
+  font-weight: normal;
+  color: #039;
+  border-bottom: 2px solid #6678b1;
+  padding: 10px 8px;
+}
+td {
+  color: #669;
+  padding: 9px 8px;
+  transition: .3s linear;
+}
+tr:hover td {color: #6699ff;}
+
+
+div{
+  width:100%;
+ background-image:url(image/a.jpg);
+align-items: center;
+
+}
+#part1{
+  border: 1px solid grey; }
+#part2{
+ border: 1px solid grey;  }
+#part3{
+  text-align: center; border: 1px solid grey; 
+}
+/*--water_whjeel_carousel--*/
+
+#carousel {
+width:100%;
+	margin:0px auto;
+
+	height:500px;
+	position:relative;
+	clear:both;
+	overflow:hidden;
+}
+
+
+#nav
+{height: 90px; }
+#nav h3 
+{font-size: 20px; 
+font-family:  Sans-Serif;
+ color: #5F021F }
+
+#carousel .caption {
+	position: absolute;
+	background-color:#FFF;
+	top: 0px;
+	left: 0px;
+	height:100%;
+	width:100%;
+}
+body .carousel .nav.dot{
+61.
+display:inline-block;
+62.
+width:16px;
+63.
+height:16px;
+64.
+background:#666666;
+65.
+cursor:pointer;
+66.
+border-radius:16px;
+67.
+margin:0 20px;
+68.
+border:1px solid #666666;
+69.
+}
+
+
+#toTop {
+  display:none;
+  text-decoration:none;
+  position:fixed;
+  bottom:50px;
+  right:10px;
+  overflow:hidden;
+  width:51px;
+  height:51px;
+  border:none;
+  text-indent:100%;
+  background:url(image/ui.totop.png) no-repeat left top;
+}
+
+#toTopHover {
+  background:url(image/ui.totop.png) no-repeat left -51px;
+  width:51px;
+  height:51px;
+  display:block;
+  overflow:hidden;
+  float:left;
+  opacity: 0;
+  -moz-opacity: 0;
+  filter:alpha(opacity=0);
+}
+
+#toTop:active, #toTop:focus {
+  outline:none;
+}
+
+#city {
+  border: 1px solid grey; 
+  text-align: center;
+  
+}
+#city p{
+text-align: left;}
+#contact p{
+    width:100%;
+    text-align:justify;
+}
